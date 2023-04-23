@@ -34,15 +34,6 @@
                 android:textColor="@color/black"
                 android:textSize="23sp"
                 />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Дата"
-                android:layout_marginTop="8dp"
-                android:textColor="@color/black"
-                android:textSize="23sp"
-                />
-
 
 
         </LinearLayout>
@@ -60,33 +51,22 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:id="@+id/item_name"
-                android:layout_height="wrap_content"
-
-                android:textColor="@color/black"
-                android:textSize="23sp"
-                android:text="0"/>
-
-            <TextView
+                android:id="@+id/client_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/item_buy"
+
                 android:text="0"
-                android:layout_marginTop="8dp"
                 android:textColor="@color/black"
-                android:textSize="23sp"
-                />
+                android:textSize="23sp" />
+
             <TextView
+                android:id="@+id/summ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/item_sale"
-                android:text="Дата"
                 android:layout_marginTop="8dp"
+                android:text="0"
                 android:textColor="@color/black"
-                android:textSize="23sp"
-                />
-
+                android:textSize="23sp" />
 
 
         </LinearLayout>

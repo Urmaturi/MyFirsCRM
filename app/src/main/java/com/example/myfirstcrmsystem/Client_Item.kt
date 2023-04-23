@@ -34,7 +34,7 @@ class Client_Item : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_client__item, container, false)
+        return inflater.inflate(R.layout.fragment_client_item, container, false)
     }
 
     companion object {
